@@ -2,6 +2,7 @@ package com.digital.innovation.ControleDePonto.controller;
 
 import com.digital.innovation.ControleDePonto.model.JornadaTrabalho;
 import com.digital.innovation.ControleDePonto.service.JornadaService;
+import lombok.Builder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,14 +1,12 @@
+
 package com.digital.innovation.ControleDePonto.service;
 
 
-import com.digital.innovation.ControleDePonto.DTO.response.ResponseMessageDTO;
 import com.digital.innovation.ControleDePonto.model.JornadaTrabalho;
 import com.digital.innovation.ControleDePonto.repository.JornadaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 import java.util.List;
 import java.util.Optional;
