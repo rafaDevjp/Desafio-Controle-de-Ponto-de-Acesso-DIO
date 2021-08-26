@@ -22,7 +22,7 @@ public class ControleDePontoApplication {
 	}
 
 	@Bean
-	public OpenAPI customOpenApi(@Value("Controle de Ponto") String description){
+	public OpenAPI customOpenApi(@Value("API REST - Controle de Ponto") String description){
 		return new OpenAPI()
 
 				.info(new Info()
